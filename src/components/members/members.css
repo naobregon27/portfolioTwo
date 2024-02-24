@@ -1,0 +1,113 @@
+.member-tx{
+    font-size: 20px;
+    top: 10px;
+    font-weight: 100;
+}
+
+.members-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin-top: 100px;
+}
+.member-1{
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    background-color: rgba(23, 6, 6, 0.215);
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.member-img-1 {
+    height: 300px;
+    width: 300px;
+    border-radius: 40px;
+    background-image: url("../props/WhatsApp Image 2024-02-24 at 08.53.12.jpeg");
+    background-size: cover;
+    background-position: center;
+    border: 2px solid var(--color-sec-light);
+}
+
+.member-img-2 {
+    height: 300px;
+    width: 300px;
+    border-radius: 40px;
+    background-image: url("../props/WhatsApp Image 2024-01-29 at 12.55.08.jpeg");
+    background-size: cover;
+    background-position: center;
+    border: 2px solid var(--color-sec-light);
+}
+
+.member-img-3 {
+    height: 300px;
+    width: 300px;
+    border-radius: 40px;
+    background-image: url("../props/WhatsApp Image 2023-08-30 at 11.28.34.jpeg");
+    background-size: cover;
+    background-position: center;
+    border: 2px solid var(--color-sec-light);
+}
+
+.member-img-4 {
+    height: 300px;
+    width: 300px;
+    border-radius: 40px;
+    background-image: url("../props/WhatsApp Image 2023-08-30 at 11.02.12.jpeg");
+    background-size: cover;
+    background-position: center;
+    border: 2px solid var(--color-sec-light);
+}
+
+.member-info{
+    margin-left: 50px;
+    font-family: "Open Sans Condensed";
+    max-width: 60%;
+}
+
+.member-info .name{
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.position{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.about{
+    margin-top: 40px;
+    font-weight: 100;
+    font-size: 17px;
+}
+
+.contact-member{
+background: var(--color-sec-light);
+padding: 17px 35px;
+font-size: 18px;
+margin-top: 50px;
+border-radius: 50px;
+transition: .1s ease;
+position: absolute;
+bottom: 5%;
+right: 5%;
+}
+
+.contact-member span{
+    text-transform: capitalize;
+}
+
+.contact-member:hover{
+    background: transparent;
+    border: 2px solid var(--color-sec-light);
+    
+}
