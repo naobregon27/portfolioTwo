@@ -30,12 +30,29 @@ const Qualifications = () => {
                     <h1>JavaScript</h1>
                 </div>
                 <div className="qualification">
+                    <div className="content docker"></div>
+                    <h1>Docker</h1>
+                </div>
+                <div className="qualification">
+                    <div className="content express"></div>
+                    <h1>Express</h1>
+                </div>
+                <div className="qualification">
+                    <div className="content node"></div>
+                    <h1>Node JS</h1>
+                </div>
+
+                <div className="qualification">
                     <div className="content sql"></div>
                     <h1>SQL</h1>
                 </div>
                 <div className="qualification">
                     <div className="content figma"></div>
                     <h1>Figma</h1>
+                </div>
+                <div className="qualification">
+                    <div className="content bootstrap"></div>
+                    <h1>Bootstrap</h1>
                 </div>
                 <div className="qualification">
                     <div className="content veu"></div>

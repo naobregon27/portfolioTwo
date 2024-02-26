@@ -82,6 +82,25 @@
     background-size: 290px;
 }
 
+.qualifications-container .qualification .content.docker{
+    background: url(../props/docker_original_wordmark_logo_icon_146557.png);
+    background-position: center;
+    background-size: 290px;
+}
+
+.qualifications-container .qualification .content.express{
+    background: url(../props/express_logo_icon_248911.png);
+    background-position: center;
+    background-size: 290px;
+}
+
+.qualifications-container .qualification .content.node{
+    background: url(../props/file_type_node_icon_130301.png);
+    background-position: center;
+    background-size: 290px;
+}
+
+
 .qualifications-container .qualification .content.sql{
     background: url(../props/file_type_sql_icon_130152.png);
     background-position: center;
@@ -90,6 +109,12 @@
 
 .qualifications-container .qualification .content.figma{
     background: url(../props/figma_5968705.png);
+    background-position: center;
+    background-size: 290px;
+}
+
+.qualifications-container .qualification .content.bootstrap{
+    background: url(../props/bootstrap_plain_logo_icon_146619.png);
     background-position: center;
     background-size: 290px;
 }

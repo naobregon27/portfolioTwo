@@ -19,7 +19,7 @@ function NavBar() {
             <a href="#members">
                 <TiGroupOutline className="icon" />
             </a>
-            <a href="#contacto">
+            <a href="#footer">
                 <BiMessageRoundedDots className="icon" />
             </a>
             <a href="#footer">
