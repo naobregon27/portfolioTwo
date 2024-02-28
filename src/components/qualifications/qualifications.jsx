@@ -56,7 +56,7 @@ const Qualifications = () => {
                 </div>
                 <div className="qualification">
                     <div className="content veu"></div>
-                    <h1>Veu</h1>
+                    <h1>Vue</h1>
                 </div>
                 <div className="qualification">
                     <div className="content tailwind"></div>
