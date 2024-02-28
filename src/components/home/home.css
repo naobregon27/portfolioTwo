@@ -57,7 +57,25 @@
 }
 
 .circle{
-    opacity: 1;
+    opacity: 25;
+    animation:circulo 5s both ;
+
+}
+
+@keyframes circulo {
+10% {
+    transform: scale(1.05) rotate(5deg);
+}
+20%{
+    transform: scale(1.05) rotate(-5deg);
+}
+30% {
+    transform: scale(1.05) rotate(5deg);
+}
+60%{
+    transform:scale(1.05) rotate(5deg);
+}
+
 }
 
 .circle:nth-child(1){
