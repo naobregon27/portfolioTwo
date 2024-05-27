@@ -5,6 +5,22 @@
     margin-top: 80px;
     width: 60%;
     padding: 0;
+    flex-wrap: wrap;
+
+}
+
+@media(max-width:768px){
+    .button-container{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+        width: 60%;
+        padding: 0;
+        flex-wrap: wrap;
+        margin-left: 38%;
+    
+    }
 }
 
 .button-container .btn {
@@ -17,6 +33,7 @@
     color: var(--text-pri);
     transition: 0.2s ease;
     overflow: hidden;
+    flex-wrap: wrap;
 }
 
 .button-container a{

@@ -10,6 +10,22 @@
     backdrop-filter: blur(20px);
     animation: fade-in 1s ease 1 forwards;
 }
+@media(max-width:768px){
+    .header-container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 7px;
+        margin-left: 7%;
+        transform: translateY(-100%);
+        opacity: 0;
+        backdrop-filter: blur(20px);
+        animation: fade-in 1s ease 1 forwards;
+        width:100%;
+    }
+}
 
 @keyframes fade-in {
     0%{
@@ -30,6 +46,12 @@
 
 .header-container h3 p{
     font-size: 15px;
+}
+@media(max-width:768px){
+    .header-container h3 p{
+        font-size: 30px;
+        margin-top: 20px;
+    }   
 }
 
 .header-container h3 p span{

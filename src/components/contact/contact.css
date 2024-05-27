@@ -18,6 +18,30 @@
   
 }
 
+@media (max-width: 768px){
+    .contacto1{
+       position: absolute;
+       top: -5%;
+       left: -2%;
+        
+        
+      
+    }   
+}
+
+@media (max-width: 768px){
+.contact-container{
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    grid-gap: 1px 5px;
+    position: relative;
+    margin-left: 40%;
+    top: 100%;
+    width: 90%;
+    justify-content: center;
+}
+}
+
 .contact-links {
     position: relative;
     display: flex;
@@ -26,6 +50,16 @@
     width: 200%;
     margin-top: 40px;
 } 
+@media (max-width: 768px){
+    .contact-links {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 50%;
+        margin-top: 40px;
+    }   
+}
 
 .contact-container .contact {
     position: inherit;

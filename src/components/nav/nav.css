@@ -13,6 +13,28 @@
     border-radius: 50px;
     /* opacity: 0; */
     animation: fade-nav-in 2s ease 1 1s forwards;
+    flex-wrap: wrap;
+}
+
+@media(max-width:768px){
+    .navigation {
+        position: fixed;
+        left: 10px;
+        top: 50%;
+        transform: translate(10%, -30%); 
+        background-color: rgba(4, 2, 9, 0.576);
+        padding: 5px 1px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 23px;
+        border-radius: 50px;
+        /* opacity: 0; */
+        animation: fade-nav-in 2s ease 1 1s forwards;
+        flex-wrap: wrap;
+        cursor: pointer;
+    }
 }
 
 @keyframes fade-nav-in {

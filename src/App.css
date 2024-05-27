@@ -91,6 +91,7 @@ body::after{
   .container{
     width: var(--phone-width);
   }
+  
 }
 
 

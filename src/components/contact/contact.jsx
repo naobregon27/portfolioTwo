@@ -18,7 +18,7 @@ function Contact() {
 
             <div className="container contact-container">
                 
-                    <h1 className="contacto">Contactame</h1>
+                    <h1 className="contacto1">Contactame</h1>
                    
         
 

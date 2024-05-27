@@ -13,6 +13,21 @@
     min-height: 100vh;
     margin-top: 100px;
 }
+
+@media(max-width:768px){
+    .members-container{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+        min-height: 100vh;
+        margin-top: 100px;
+        margin-left: 13%;
+        width: 90%;
+    }
+
+}
 .member-1{
     position: relative;
     display: flex;
@@ -36,11 +51,46 @@
     border: 2px solid var(--color-sec-light);
 }
 
+@media(max-width:768px){
+    .member-1{
+        position: relative;
+        display: flex;
+        justify-content: start;
+        align-items: flex-start;
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 50px;
+        background-color: rgba(23, 6, 6, 0.215);
+        padding: 20px;
+        border-radius: 50px;
+    }
+    .member-img-1 {
+        height: 200px;
+        width: 200px;
+        border-radius: 40px;
+        background-image: url("../props/WhatsApp Image 2024-02-24 at 08.53.12.jpeg");
+        background-size: cover;
+        background-position: center;
+        border: 2px solid var(--color-sec-light);
+    }
+}
+
+@media(max-width:768px){
+    .member-img-2 {
+        height: 200px;
+        width: 200px;
+        border-radius: 40px;
+        background-image: url("../props/WhatsApp Image 2024-01-29 at 12.55.08.jpeg");
+        background-size: cover;
+        background-position: center;
+        border: 2px solid var(--color-sec-light);
+    }
+}
 .member-img-2 {
     height: 300px;
     width: 300px;
     border-radius: 40px;
-    background-image: url("../props/WhatsApp Image 2024-01-29 at 12.55.08.jpeg");
+     background-image: url("../props/WhatsApp Image 2024-01-29 at 12.55.08.jpeg");
     background-size: cover;
     background-position: center;
     border: 2px solid var(--color-sec-light);
@@ -90,6 +140,24 @@
     font-size: 17px;
 }
 
+@media(max-width:768px){
+    
+.about{
+    margin-top: 40px;
+    font-weight: 100;
+    font-size: 17px;
+    margin-left: -20%;
+}
+
+}
+@media(max-width:768px){
+.member-info .name{
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+}
+
 .contact-member{
 background: var(--color-sec-light);
 padding: 17px 35px;
@@ -110,4 +178,18 @@ right: 5%;
     background: transparent;
     border: 2px solid var(--color-sec-light);
     
+}
+
+@media(max-width:768px){
+    .contact-member{
+        background: var(--color-sec-light);
+        padding: 17px 35px;
+        font-size: 18px;
+        margin-top: 50px;
+        border-radius: 50px;
+        transition: .1s ease;
+        position: absolute;
+        bottom: 5%;
+        right: 65%;
+        }
 }
