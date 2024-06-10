@@ -94,10 +94,11 @@ const Members = () => {
 
 
                     </h4>
+                    <br />
                     <a href="#contact" className="contact-member">
                         <span
-                        onMouseLeave={handleHovered1}
-                        onClick={handleNavigator1}
+                            onMouseLeave={handleHovered1}
+                            onClick={handleNavigator1}
                         >contact</span>
                     </a>
                 </div>
@@ -117,10 +118,11 @@ const Members = () => {
                         <li>PostgreSQL</li>
                         <li>Booststrap</li>
                     </ul>
+                    <br />
                     <a href="#contact" className="contact-member">
                         <span
-                        onMouseLeave={handleHovered2}
-                        onClick={handleNavigator2}>
+                            onMouseLeave={handleHovered2}
+                            onClick={handleNavigator2}>
                             contact</span>
                     </a>
                 </div>
@@ -142,10 +144,11 @@ const Members = () => {
                         <li>Back End: Node Js, Express</li>
                         <li>Base de Datos: Maria DB</li>
                     </ul>
+                    <br />
                     <a href="#contact" className="contact-member">
                         <span
-                         onMouseLeave={handleHovered3}
-                         onClick={handleNavigator3}>contact</span>
+                            onMouseLeave={handleHovered3}
+                            onClick={handleNavigator3}>contact</span>
                     </a>
                 </div>
             </div>
@@ -175,10 +178,11 @@ const Members = () => {
                         <li>Back End: Node Js, Express</li>
                         <li>Base de Datos: PostgreSQL</li>
                     </ul>
+                    <br />
                     <a href="#contact" className="contact-member">
                         <span
-                         onMouseLeave={handleHovered4}
-                         onClick={handleNavigator4}>contact</span>
+                            onMouseLeave={handleHovered4}
+                            onClick={handleNavigator4}>contact</span>
                     </a>
                 </div>
             </div>

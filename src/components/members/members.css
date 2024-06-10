@@ -52,26 +52,12 @@
 }
 
 @media(max-width:768px){
-    .member-1{
-        position: relative;
-        display: flex;
-        justify-content: start;
-        align-items: flex-start;
-        width: 100%;
-        margin-top: 15px;
-        margin-bottom: 50px;
-        background-color: rgba(23, 6, 6, 0.215);
-        padding: 20px;
-        border-radius: 50px;
-    }
+    .member-1 {
+        flex-direction: column; 
+        align-items: center;     }
     .member-img-1 {
-        height: 200px;
-        width: 200px;
-        border-radius: 40px;
-        background-image: url("../props/WhatsApp Image 2024-02-24 at 08.53.12.jpeg");
-        background-size: cover;
-        background-position: center;
-        border: 2px solid var(--color-sec-light);
+        height: 250px; 
+        width: 250px;
     }
 }
 
@@ -179,17 +165,18 @@ right: 5%;
     border: 2px solid var(--color-sec-light);
     
 }
-
-@media(max-width:768px){
-    .contact-member{
+@media (max-width: 768px) {
+    .contact-member {
         background: var(--color-sec-light);
         padding: 17px 35px;
         font-size: 18px;
         margin-top: 50px;
         border-radius: 50px;
         transition: .1s ease;
-        position: absolute;
-        bottom: 5%;
-        right: 65%;
-        }
+        position: relative; 
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        margin: 0 auto; 
+    }
 }
